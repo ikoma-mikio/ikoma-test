@@ -1,4 +1,3 @@
 # ikoma-test
-sample repo for myself
+A sample file for Project Practice II.
 
-add 1 line
