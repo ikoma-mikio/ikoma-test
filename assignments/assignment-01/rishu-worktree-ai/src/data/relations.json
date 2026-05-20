@@ -1,0 +1,142 @@
+[
+  {
+    "from": "core_intro",
+    "to": "info_data_literacy",
+    "type": "related",
+    "reason": "社会情報学の全体像を理解した上で、データ活用へ進みやすい。",
+    "importance": 3
+  },
+  {
+    "from": "core_intro",
+    "to": "social_survey",
+    "type": "related",
+    "reason": "社会情報学の課題意識が調査設計につながる。",
+    "importance": 3
+  },
+  {
+    "from": "core_stats_basic",
+    "to": "info_data_analysis",
+    "type": "prerequisite",
+    "reason": "データ分析では統計の基礎理解が必要になる。",
+    "importance": 5
+  },
+  {
+    "from": "core_stats_basic",
+    "to": "social_data",
+    "type": "prerequisite",
+    "reason": "社会データを扱うために統計の基礎が必要になる。",
+    "importance": 5
+  },
+  {
+    "from": "core_math",
+    "to": "info_ml_intro",
+    "type": "prerequisite",
+    "reason": "機械学習の理解には数理的な考え方が役立つ。",
+    "importance": 4
+  },
+  {
+    "from": "info_programming",
+    "to": "info_data_analysis",
+    "type": "prerequisite",
+    "reason": "データ分析でコードを使うため、プログラミングの基礎が前提になる。",
+    "importance": 5
+  },
+  {
+    "from": "info_programming",
+    "to": "info_web",
+    "type": "prerequisite",
+    "reason": "Webアプリ開発ではプログラミングの基礎が必要になる。",
+    "importance": 4
+  },
+  {
+    "from": "info_data_literacy",
+    "to": "info_visualization",
+    "type": "related",
+    "reason": "データの整理と可視化は連続した学びになる。",
+    "importance": 4
+  },
+  {
+    "from": "info_db",
+    "to": "info_project",
+    "type": "applied",
+    "reason": "情報システム演習でデータ管理の知識が役立つ。",
+    "importance": 4
+  },
+  {
+    "from": "info_web",
+    "to": "info_project",
+    "type": "applied",
+    "reason": "情報システム演習でWeb開発の基礎が役立つ。",
+    "importance": 4
+  },
+  {
+    "from": "info_data_analysis",
+    "to": "info_ml_intro",
+    "type": "applied",
+    "reason": "分析の基礎を学んだ後に、より高度な予測・分類へ進む。",
+    "importance": 5
+  },
+  {
+    "from": "social_survey",
+    "to": "social_data",
+    "type": "prerequisite",
+    "reason": "調査設計を理解すると、社会データ分析の意味が分かりやすい。",
+    "importance": 5
+  },
+  {
+    "from": "social_survey",
+    "to": "cross_research",
+    "type": "applied",
+    "reason": "プロジェクト演習で調査設計が役立つ。",
+    "importance": 4
+  },
+  {
+    "from": "social_data",
+    "to": "cross_method",
+    "type": "applied",
+    "reason": "卒業研究に向けて分析方法の理解につながる。",
+    "importance": 4
+  },
+  {
+    "from": "human_psych",
+    "to": "human_cognition",
+    "type": "prerequisite",
+    "reason": "心理学の基礎が認知科学の理解につながる。",
+    "importance": 4
+  },
+  {
+    "from": "human_cognition",
+    "to": "human_hci",
+    "type": "related",
+    "reason": "人間の認知理解が使いやすいシステム設計につながる。",
+    "importance": 4
+  },
+  {
+    "from": "human_hci",
+    "to": "human_design",
+    "type": "applied",
+    "reason": "HCIの知識をUX設計に応用できる。",
+    "importance": 5
+  },
+  {
+    "from": "info_visualization",
+    "to": "human_design",
+    "type": "related",
+    "reason": "情報を分かりやすく見せる設計がUXに関係する。",
+    "importance": 3
+  },
+  {
+    "from": "cross_research",
+    "to": "cross_method",
+    "type": "applied",
+    "reason": "プロジェクト経験が研究方法の理解を深める。",
+    "importance": 4
+  },
+  {
+    "from": "cross_method",
+    "to": "cross_graduation",
+    "type": "prerequisite",
+    "reason": "卒業研究では研究計画と方法論の理解が必要になる。",
+    "importance": 5
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "goal_data_lab",
+    "name": "データ分析系研究室",
+    "category": "lab",
+    "description": "データを用いて社会や人間の課題を分析したい学生向け。",
+    "keyCourses": [
+      "core_stats_basic",
+      "info_programming",
+      "info_data_literacy",
+      "social_survey",
+      "info_data_analysis",
+      "social_data",
+      "info_ml_intro",
+      "info_visualization",
+      "cross_graduation"
+    ],
+    "recommendedAreas": ["情報", "社会", "教養・基礎"],
+    "fourYearPlan": [
+      { "label": "1年前期", "courseIds": ["core_intro", "core_academic"] },
+      { "label": "1年後期", "courseIds": ["core_stats_basic", "info_programming", "info_data_literacy"] },
+      { "label": "2年前期", "courseIds": ["social_survey", "info_db"] },
+      { "label": "2年後期", "courseIds": ["info_data_analysis", "social_data"] },
+      { "label": "3年前期以降", "courseIds": ["info_ml_intro", "info_visualization", "cross_method"] },
+      { "label": "4年", "courseIds": ["cross_graduation"] }
+    ],
+    "mockAdvice": {
+      "summary": "統計・プログラミング・調査法を早めに固めるルートです。",
+      "recommendedCourseIds": ["social_survey", "info_data_analysis", "social_data"],
+      "missingPrerequisiteIds": ["social_survey"],
+      "explanation": "このMVPに登録された授業データ上では、データ分析系研究室を目指す場合、1年次に統計入門とプログラミング基礎を固めておくことが重要です。2年後期のデータ分析や社会データ分析が、統計の考え方とプログラミングによる処理を前提にしているためです。社会の課題を扱う研究に進む場合は、社会調査法も早めに取ると、データを集める段階から分析までの流れを理解しやすくなります。",
+      "cautions": ["正式な履修条件や開講情報は、大学のシラバス・履修要項で確認してください。"]
+    }
+  },
+  {
+    "id": "goal_it_career",
+    "name": "IT企業・SEルート",
+    "category": "career",
+    "description": "IT企業やシステム開発職に関心がある学生向け。",
+    "keyCourses": [
+      "info_programming",
+      "info_db",
+      "info_web",
+      "info_project",
+      "human_hci",
+      "social_business"
+    ],
+    "recommendedAreas": ["情報", "人間", "社会"],
+    "fourYearPlan": [
+      { "label": "1年", "courseIds": ["core_intro", "info_programming"] },
+      { "label": "2年前期", "courseIds": ["info_db", "info_web"] },
+      { "label": "2年後期", "courseIds": ["human_hci"] },
+      { "label": "3年", "courseIds": ["info_project", "social_business"] },
+      { "label": "4年", "courseIds": ["cross_graduation"] }
+    ],
+    "mockAdvice": {
+      "summary": "開発基礎から設計・演習へ進むルートです。",
+      "recommendedCourseIds": ["info_db", "info_web", "info_project"],
+      "missingPrerequisiteIds": ["info_db", "info_web"],
+      "explanation": "このMVPに登録された授業データ上では、IT企業・SEルートではプログラミング基礎の後に、データベース基礎とWebアプリケーション基礎へ進む流れが分かりやすいです。3年次の情報システム演習で、設計と実装をまとめて扱えるようになります。",
+      "cautions": ["実際の採用要件や資格要件は企業によって異なります。"]
+    }
+  },
+  {
+    "id": "goal_social_research",
+    "name": "社会調査・政策分析ルート",
+    "category": "career",
+    "description": "社会課題を調査やデータで分析したい学生向け。",
+    "keyCourses": [
+      "social_survey",
+      "social_data",
+      "social_policy",
+      "social_media",
+      "cross_method",
+      "cross_graduation"
+    ],
+    "recommendedAreas": ["社会", "教養・基礎", "領域横断"],
+    "fourYearPlan": [
+      { "label": "1年", "courseIds": ["core_intro", "core_stats_basic"] },
+      { "label": "2年前期", "courseIds": ["social_survey", "social_media"] },
+      { "label": "2年後期", "courseIds": ["social_data", "social_policy"] },
+      { "label": "3年", "courseIds": ["cross_research", "cross_method"] },
+      { "label": "4年", "courseIds": ["cross_graduation"] }
+    ],
+    "mockAdvice": {
+      "summary": "社会課題を調査し、データで説明する力を育てるルートです。",
+      "recommendedCourseIds": ["social_survey", "social_data", "cross_method"],
+      "missingPrerequisiteIds": ["social_survey"],
+      "explanation": "このMVPに登録された授業データ上では、社会調査法でデータの集め方を学び、社会データ分析で集めたデータを読む流れが中心になります。政策やメディアの授業を組み合わせると、分析対象となる社会課題の理解も深めやすくなります。",
+      "cautions": ["調査対象や分析手法は研究テーマによって変わります。"]
+    }
+  },
+  {
+    "id": "goal_human_design",
+    "name": "UX・人間中心設計ルート",
+    "category": "career",
+    "description": "人間の行動理解をもとにサービスや画面を設計したい学生向け。",
+    "keyCourses": [
+      "human_psych",
+      "human_cognition",
+      "human_hci",
+      "human_design",
+      "info_visualization",
+      "info_web"
+    ],
+    "recommendedAreas": ["人間", "情報"],
+    "fourYearPlan": [
+      { "label": "1年", "courseIds": ["human_psych", "info_data_literacy"] },
+      { "label": "2年前期", "courseIds": ["human_cognition", "info_web"] },
+      { "label": "2年後期", "courseIds": ["human_hci"] },
+      { "label": "3年", "courseIds": ["human_design", "info_visualization"] },
+      { "label": "4年", "courseIds": ["cross_graduation"] }
+    ],
+    "mockAdvice": {
+      "summary": "人間理解から画面・サービス設計へ進むルートです。",
+      "recommendedCourseIds": ["human_cognition", "human_hci", "human_design"],
+      "missingPrerequisiteIds": ["human_psych"],
+      "explanation": "このMVPに登録された授業データ上では、心理学基礎から認知科学、HCI、ユーザー体験デザインへ進むと、人が使いやすいサービスを考える流れが作れます。情報可視化を組み合わせると、データや関係性を伝える設計にもつながります。",
+      "cautions": ["UX領域では授業だけでなく、実際の観察やプロトタイピング経験も重要です。"]
+    }
+  },
+  {
+    "id": "goal_grad_school",
+    "name": "大学院進学ルート",
+    "category": "graduate_school",
+    "description": "研究計画や分析力を早めに固めたい学生向け。",
+    "keyCourses": [
+      "core_stats_basic",
+      "core_math",
+      "info_data_analysis",
+      "cross_research",
+      "cross_method",
+      "cross_graduation"
+    ],
+    "recommendedAreas": ["教養・基礎", "情報", "領域横断"],
+    "fourYearPlan": [
+      { "label": "1年", "courseIds": ["core_academic", "core_stats_basic", "core_math"] },
+      { "label": "2年", "courseIds": ["info_data_analysis", "cross_research"] },
+      { "label": "3年", "courseIds": ["cross_method", "info_ml_intro"] },
+      { "label": "4年", "courseIds": ["cross_graduation"] }
+    ],
+    "mockAdvice": {
+      "summary": "研究方法と分析基礎を早めに積み上げるルートです。",
+      "recommendedCourseIds": ["core_math", "info_data_analysis", "cross_method"],
+      "missingPrerequisiteIds": ["core_math", "cross_research"],
+      "explanation": "このMVPに登録された授業データ上では、大学院進学を考える場合、統計・数理・研究方法論を早めに固めると卒業研究に接続しやすくなります。専門分野によって必要な授業は変わるため、研究室の教員やシラバスで確認する前提です。",
+      "cautions": ["進学先の入試科目や研究分野によって必要な準備は大きく変わります。"]
+    }
+  }
+]
